@@ -1,0 +1,47 @@
+<html><head>
+
+  <base href="/">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="אנסמבל כאן גאה להציג הרדופים מאת מאור זגורי">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="אנסמבל כאן - הרדופים">
+  <link rel="apple-touch-icon" href="icons/logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="icons/logo.png">
+
+  <title>אנסמבל כאן - הרדופים</title>
+  <link rel="manifest" href="manifest.json">
+  <style></style><meta flt-viewport="" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><script src="https://unpkg.com/canvaskit-wasm@0.33.0/bin/canvaskit.js"></script><meta id="flutterweb-theme" name="theme-color" content="#000000"></head>
+
+<body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.2/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+<!-- This script installs service_worker.js to provide PWA functionality to
+     application. For more information, see:
+     https://developers.google.com/web/fundamentals/primers/service-workers -->
+
+<script>
+
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=103309475');
+      });
+    }
+  </script>
+<script src="main.dart.js" type="application/javascript"></script>
+
+
+<flt-glass-pane style="position: absolute; inset: 0px;"></flt-glass-pane></body></html>
